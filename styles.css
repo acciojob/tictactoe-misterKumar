@@ -1,1 +1,44 @@
-/*  your css code here. If applicable */
+  body{
+            width: 100vw;
+        }
+        .container{
+           width: 20%;
+           padding: 15px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+
+           
+        }
+        .container input{
+            padding: 5px 15px;
+        }
+        .container button{
+            padding: 5px 15px;
+        }
+        table{
+            border-collapse: collapse;
+            border: 2px solid black;
+            background-color: pink;
+            
+            margin: auto;
+           
+           
+       
+        }
+
+        tr td{
+            padding:40px;
+            border: 2px solid black;
+            font-size: 30px;
+      
+        }
+        .table h1{
+            text-align: center;
+        }
+        .table .message{
+            text-align: center;
+        }
+        .hide{
+            display: none;
+        }
